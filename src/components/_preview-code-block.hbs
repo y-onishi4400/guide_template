@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link media="all" rel="stylesheet" href="/stylesheets/style.css">
+    <title>{{ _target.label }} | Preview Layout</title>
+    <style type="text/css">
+      .Document {
+        width: 960px;
+        margin: auto;
+      }
+    </style>
+</style>
+</head>
+<body>
+<div id="main">
+<article class="cbody">
+  <section class="main-content" itemprop="articleBody">
+    <div class="content">
+      <div class="row">
+        <div class="grid grid-8 grid-center">
+{{{ yield }}}
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</body>
+</html>

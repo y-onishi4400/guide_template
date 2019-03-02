@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+.keep
+yarn.lock
+
+app/assets/stylesheets/style.css
